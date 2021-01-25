@@ -25,5 +25,6 @@
 	"128": "images/get_started128.png"	
 	},
   "content_scripts": [],
+  "web_accessible_resources": ["*.jpg","*.JPG"],
   "manifest_version": 2
 }
