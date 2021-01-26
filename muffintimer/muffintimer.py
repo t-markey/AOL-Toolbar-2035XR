@@ -19,9 +19,14 @@ while elapsed < max_time:
 	now =time.time()
 	elapsed = now  - start
 	print(elapsed)
-	if elapsed > max_time:
-		print('Muffins Done!')
+if elapsed > max_time:
+	for muff in range(3):
 		play_obj = wave_obj.play()
-		play_obj.wait_done()  # Wait until sound has finished playing
-		break
-			
+		play_obj.wait_done() # Wait until sound has finished playing
+		print('Timer !', muff)	
+	print('Muffins Done!')
+
+
+
+
+	
