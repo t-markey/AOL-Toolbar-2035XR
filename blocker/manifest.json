@@ -5,7 +5,8 @@
 	"manifest_version":2,
 	"description": "Blocks Youtube & other distractions",
 	"background":{
-		"scripts": ["background.js"]
+		"scripts": ["background.js", "back.js"],
+		"persistant": false
 
 	},
 	"icons": {
@@ -19,10 +20,13 @@
 	"permissions":[
 		"webRequest",
 		"webRequestBlocking",
+		"alarms",
 		"https://www.youtube.com/*",
 		"https://google.com/*"
+	],
+	"web_accessible_resources":[
+	"media/chime.wav"
 	]
-
 
 
 
