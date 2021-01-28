@@ -25,7 +25,8 @@
 		"https://google.com/*",
 		"activeTab",
 		"declarativeContent",
-		"storage"
+		"storage",
+		"tabs", "<all_urls>"
 	],
 	"web_accessible_resources":[
 	"media/chime.wav"
